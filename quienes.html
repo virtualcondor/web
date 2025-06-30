@@ -1,146 +1,181 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head>
-<title>Virtual Cóndor - Diseñamos tus Sueños</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-<!-- start top_js_button -->
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-   <script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$(".scroll").click(function(event){		
-				event.preventDefault();
-				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
-			});
-		});
-	</script>
-</head>
-<body>
-<!-- start header -->
-<div class="header_bg">
-<div class="wrap">
-	<div class="header">
-		<div class="logo">
-			<a href="index.html"><img src="images/logo.png" width="530" height="120" alt=""/> </a>
-		</div>
-		
-		<div class="clear"></div>
-	</div>
-</div>
-</div>
-<!-- start header -->
-<div class="header_btm">
-<div class="wrap">
-	<div class="header_sub">
-		<div class="h_menu">
-			<ul>
-				<li><a href="index.html">Inicio</a></li>
-				<li class="active"><a href="quienes.html">Quienes Somos</a></li>
-				<li><a href="servicio.html">Servicios</a></li>
-                <li><a href="par.html">Partners</a></li>
-                <li><a href="catalogo.html">Productos</a></li>
-                <li><a href="video.html">Videos</a></li>                
-				<li><a href="contacto.html">Contacto</a></li>
-			</ul>
-		</div>
-		
+  <head>
+    <title>Virtual Cóndor - Diseñamos tus Sueños</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:400,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <!-- start top_js_button -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+          event.preventDefault();
+          $("html,body").animate(
+            { scrollTop: $(this.hash).offset().top },
+            1200
+          );
+        });
+      });
+    </script>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!-- start header -->
+    <div class="header_bg">
+      <div class="wrap">
+        <div class="header">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="images/logo.png" width="530" height="120" alt="" />
+            </a>
+          </div>
 
-	   <script type="text/javascript">
-		$(".menu,.search").hide();
-		$("#menu").click(function(){
-			$(".menu").toggle();
-			$(".search").hide();
-			$("#search").removeClass("active");
-			$("#menu").toggleClass("active");
-		});
-		$("#search").click(function(){
-			$(".search").toggle();
-			$(".menu").hide();
-			$("#menu").removeClass("active");
-			$("#search").toggleClass("active");
-			$(".text").focus();
-		});
-	</script>
-	<script type="text/javascript" src="js/script.js"></script>
-	<div class="clear"></div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <!-- start header -->
+    <div class="header_btm">
+      <div class="wrap">
+        <div class="header_sub">
+          <div class="h_menu">
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li class="active"><a href="quienes.html">Quienes Somos</a></li>
+              <li><a href="servicio.html">Servicios</a></li>
+              <li><a href="par.html">Partners</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
 
-		<div class="clear"></div>
-</div>
-</div>
-</div>
-<!-- start top_bg -->
-<div class="top_bg">
-<div class="wrap">
-	<div class="top">
-		<h2>Nuestra Empresa</h2>
- 	</div>
-</div>
-</div>
-<!-- start main -->
-<div class="wrap">
-<div class="main">
-		<div class="about">
-	       <div class="cont-grid">
-	       <div class="abt-para">
-	       	<span>Virtual Condor.</span>
-	       	<p id="txt-a" class="para">Virtual Cóndor es una empresa creada el 12 de Mayo del 2012, para innovar con nuevas tecnologías en el país. Sus Creadores Sr. José Pérez Manríquez junto a Sr. Matías Araya Grimaldo orientan sus esfuerzos para la creación y formación de una empresa dedicada a entregar soluciones tecnológicas al común de las personas, para satisfacer la demanda para un mercado exigente. Nuestra fortaleza es la innovación de tecnología en nuestro país, con un equipo de profesionales los cuales en forma permanente logran cumplir los desafíos planteados, entregando así un trabajo óptimo y confiable.</p>
-	       	<p id="txt-a" class="para">Entregamos una alta seguridad a nuestros Clientes donde sus datos estarán seguros con nosotros.</p>
-            <p id="txt-a" class="para">Con nuestros profesionales y tecnología trabajamos para cumplir responsablemente con los objetivos planteados.</p>
-            <p id="txt-a" class="para">Tenemos un equipo dedicado para atender tus dudas y ayudarte.</p>
-			
-	       	</div>
-	      	 <div class="clear"></div>
-	      	</div>
-			 <div class="cont-grid-img img_style">
-	     		<a href="details.html"><img src="images/foto1.png" alt=""></a>
-	     	</div>	      	
-	      	<div class="clear"></div>
-	    	
-		</div>
-		<div class="clear"></div>
-	</div>
-</div>
+          <script type="text/javascript">
+            $(".menu,.search").hide();
+            $("#menu").click(function () {
+              $(".menu").toggle();
+              $(".search").hide();
+              $("#search").removeClass("active");
+              $("#menu").toggleClass("active");
+            });
+            $("#search").click(function () {
+              $(".search").toggle();
+              $(".menu").hide();
+              $("#menu").removeClass("active");
+              $("#search").toggleClass("active");
+              $(".text").focus();
+            });
+          </script>
+          <script type="text/javascript" src="js/script.js"></script>
+          <div class="clear"></div>
 
-<!-- start footer -->
-<div class="footer_bg1">
-<div class="wrap">
-	<div class="footer1">
-		<!-- scroll_top_btn -->
-	    <script type="text/javascript">
-			$(document).ready(function() {
-			
-				var defaults = {
-		  			containerID: 'toTop', // fading element id
-					containerHoverID: 'toTopHover', // fading element hover id
-					scrollSpeed: 1200,
-					easingType: 'linear' 
-		 		};
-				
-				
-				$().UItoTop({ easingType: 'easeOutQuart' });
-				
-			});
-		</script>
-		 <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
-		<!--end scroll_top_btn -->
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <!-- start top_bg -->
+    <div class="top_bg">
+      <div class="wrap">
+        <div class="top">
+          <h2>Nuestra Empresa</h2>
+        </div>
+      </div>
+    </div>
+    <!-- start main -->
+    <div class="wrap">
+      <div class="main">
+        <div class="about">
+          <div class="cont-grid">
+            <div class="abt-para">
+              <span>Virtual Condor</span>
+              <p>
+                Virtual Cóndor SpA es una empresa chilena fundada en mayo de
+                2012 con el propósito de impulsar la innovación tecnológica a
+                nivel nacional. Desde sus inicios, ha orientado su trabajo al
+                desarrollo de soluciones tecnológicas accesibles, eficientes y
+                alineadas con las necesidades de un mercado cada vez más
+                exigente.
+              </p>
+              <p>
+                Nuestra principal fortaleza radica en la capacidad de innovación
+                y en un equipo profesional altamente calificado, que trabaja de
+                forma constante para enfrentar y resolver desafíos técnicos con
+                compromiso, calidad y responsabilidad.
+              </p>
+              <p>
+                Brindamos soluciones confiables y seguras, garantizando la
+                protección de los datos de nuestros clientes y la continuidad
+                operativa de sus procesos.
+              </p>
+              <p>
+                En Virtual Cóndor trabajamos con profesionalismo, ética y
+                orientación a resultados. Nuestro equipo está siempre disponible
+                para resolver consultas y colaborar activamente en la concreción
+                de objetivos tecnológicos.
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="cont-grid-img img_style">
+            <a href="details.html"><img src="images/foto1.png" alt="" /></a>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
 
-		<div class="copy">
-			<div id="corfo"><img src="images/logo-boosco.png" width="200" height="65"/></div>
-            <div id="logo2"><img src="images/logocorfo.png" width="200" height="80"/></div>
-             <div id="texto-p">
-                 <p>Todos Los Derechos Reservados</p>
-                 <p>Sitio desarrollado por Compañía de Comunicaciones BOOSCO Ldta.</p>
-                 <p>www.boosco.cl</p>
-             </div>
-		</div>
-		<div class="clear"></div>
-	</div>
-</div>
-</div>
-</body>
+    <!-- start footer -->
+    <div class="footer_bg1">
+      <div class="wrap">
+        <div class="footer1">
+          <!-- scroll_top_btn -->
+          <script type="text/javascript">
+            $(document).ready(function () {
+              var defaults = {
+                containerID: "toTop", // fading element id
+                containerHoverID: "toTopHover", // fading element hover id
+                scrollSpeed: 1200,
+                easingType: "linear",
+              };
+
+              $().UItoTop({ easingType: "easeOutQuart" });
+            });
+          </script>
+          <a href="#" id="toTop" style="display: block"
+            ><span id="toTopHover" style="opacity: 1"></span
+          ></a>
+          <!--end scroll_top_btn -->
+
+          <div class="copy">
+            <div id="corfo">
+              <img src="images/logo-boosco.png" width="200" height="65" />
+            </div>
+            <div id="logo2">
+              <img src="images/logocorfo.png" width="200" height="80" />
+            </div>
+            <div id="texto-p">
+              <p>Todos Los Derechos Reservados</p>
+              <p>
+                Sitio desarrollado por Compañía de Comunicaciones BOOSCO Ldta.
+              </p>
+              <p>www.boosco.cl</p>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

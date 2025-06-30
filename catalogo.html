@@ -1,198 +1,221 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head>
-<title>Virtual Cóndor - Diseñamos tus Sueños</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-<!-- start top_js_button -->
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-   <script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$(".scroll").click(function(event){		
-				event.preventDefault();
-				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
-			});
-		});
-	</script>
-</head>
-<body>
-<!-- start header -->
-<div class="header_bg">
-<div class="wrap">
-	<div class="header">
-		<div class="logo">
-			<a href="index.html"><img src="images/logo.png" width="530" height="120" alt=""/> </a>
-		</div>
-	
-		<div class="clear"></div>
-	</div>
-</div>
-</div>
-<!-- start header -->
-<div class="header_btm">
-<div class="wrap">
-	<div class="header_sub">
-		<div class="h_menu">
-			<ul>
-				<li><a href="index.html">Inicio</a></li>
-				<li><a href="quienes.html">Quienes Somos</a></li>
-				<li><a href="servicio.html">Servicios</a></li>
-                <li><a href="par.html">Partners</a></li>
-                <li class="active"><a href="catalogo.html">Productos</a></li>
-                <li><a href="video.html">Videos</a></li>                
-				<li><a href="contacto.html">Contacto</a></li>
-			</ul>
-		</div>
-		
-     
-	   <script type="text/javascript">
-		$(".menu,.search").hide();
-		$("#menu").click(function(){
-			$(".menu").toggle();
-			$(".search").hide();
-			$("#search").removeClass("active");
-			$("#menu").toggleClass("active");
-		});
-		$("#search").click(function(){
-			$(".search").toggle();
-			$(".menu").hide();
-			$("#menu").removeClass("active");
-			$("#search").toggleClass("active");
-			$(".text").focus();
-		});
-	</script>
-	<script type="text/javascript" src="js/script.js"></script>
-	<div class="clear"></div>
+  <head>
+    <title>Virtual Cóndor - Diseñamos tus Sueños</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:400,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <!-- start top_js_button -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+          event.preventDefault();
+          $("html,body").animate(
+            { scrollTop: $(this.hash).offset().top },
+            1200
+          );
+        });
+      });
+    </script>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!-- start header -->
+    <div class="header_bg">
+      <div class="wrap">
+        <div class="header">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="images/logo.png" width="530" height="120" alt="" />
+            </a>
+          </div>
 
-		<div class="clear"></div>
-</div>
-</div>
-</div>
-<!-- start top_bg -->
-<div class="top_bg">
-<div class="wrap">
-	<div class="top">
-		<h2>CAtalogo</h2>
- 	</div>
-</div>
-</div>
-<!-- start main -->
-<div class="wrap">
-<div id="servicio" class="main">
-		<!-- start span_of_3 -->
-		<div class="span_of_3">
-			<div id="cuadro-c" class="span1_of_3">
-				<a href="catalogo/3m.pdf" target="_blank"><img src="images/portada/3m.jpg"></a>
-				<div class="span1_of_3_text">
-					<h3><a>Cámaras de Vigilancia CCTV</a></h3>
-					<p></p>
-				</div>	
-			</div>
-            
-            <div id="cuadro-c" class="span1_of_3">
-				<a href="catalogo/after-mouse-games.pdf" target="_blank"><img src="images/portada/after1.jpg"></a>
-				<div class="span1_of_3_text">
-					<h3><a>Cerradura Biométrica Digital</a></h3>
-				</div>
-			</div>
-            
-			<div id="cuadro-c" class="span1_of_3">
-				<a href="catalogo/after-mouse-hardware.pdf" target="_blank"><img src="images/portada/after2.jpg"></a>
-				<div class="span1_of_3_text">
-					<h3><a>Control de Acceso Facial</a></h3>
-				</div>
-			</div>
-            
-            
-			<div class="clear"></div>
-		</div>
-        
-        
-        
-<div class="span_of_3">
-			<div id="cuadro-c" class="span1_of_3">
-				<a href="catalogo/after-mouse-kinect.pdf" target="_blank"><img src="images/portada/after3.jpg"></a>
-				<div class="span1_of_3_text">
-					<h3><a>Cámaras Antibandalicas</a></h3>
-				</div>	
-			</div>
-            
-            <div id="cuadro-c" class="span1_of_3">
-				<a href="catalogo/after-mouse-resto.pdf" target="_blank"><img src="images/portada/after4.jpg"></a>
-				<div class="span1_of_3_text">
-					<h3><a>Control de Acceso Dactilar</a></h3>
-				</div>
-			</div>
-            
-			<div id="cuadro-c" class="span1_of_3">
-				<a href="catalogo/after-mouse-tecnology.pdf" target="_blank"><img src="images/portada/after5.jpg"></a>
-				<div class="span1_of_3_text">
-					<h3><a>Carta de Presentación</a></h3>
-				</div>
-			</div>
-        
-            
-			<div class="clear"></div>
-		</div>
-        
-        
-        
-<div class="span_of_3">
-			<div id="cuadro-c" class="span1_of_3">
-				<a href="catalogo/anyguest.pdf" target="_blank"><img src="images/portada/after6.jpg"></a>
-				<div class="span1_of_3_text">
-					<h3><a>Alarma Comunitaria</a></h3>
-				</div>	
-			</div>
-        
-            
-			<div class="clear"></div>
-		</div>             
-		<!--  -->
-		<!-- end grids_of_3 -->
-	</div>
-</div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <!-- start header -->
+    <div class="header_btm">
+      <div class="wrap">
+        <div class="header_sub">
+          <div class="h_menu">
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="quienes.html">Quienes Somos</a></li>
+              <li><a href="servicio.html">Servicios</a></li>
+              <li><a href="par.html">Partners</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
 
-<!-- start footer -->
-<div class="footer_bg1">
-<div class="wrap">
-	<div class="footer1">
-		<!-- scroll_top_btn -->
-	    <script type="text/javascript">
-			$(document).ready(function() {
-			
-				var defaults = {
-		  			containerID: 'toTop', // fading element id
-					containerHoverID: 'toTopHover', // fading element hover id
-					scrollSpeed: 1200,
-					easingType: 'linear' 
-		 		};
-				
-				
-				$().UItoTop({ easingType: 'easeOutQuart' });
-				
-			});
-		</script>
-		 <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
-		<!--end scroll_top_btn -->
+          <script type="text/javascript">
+            $(".menu,.search").hide();
+            $("#menu").click(function () {
+              $(".menu").toggle();
+              $(".search").hide();
+              $("#search").removeClass("active");
+              $("#menu").toggleClass("active");
+            });
+            $("#search").click(function () {
+              $(".search").toggle();
+              $(".menu").hide();
+              $("#menu").removeClass("active");
+              $("#search").toggleClass("active");
+              $(".text").focus();
+            });
+          </script>
+          <script type="text/javascript" src="js/script.js"></script>
+          <div class="clear"></div>
 
-		<div class="copy">
-			<div id="corfo"><img src="images/logo-boosco.png" width="200" height="65"/></div>
-            <div id="logo2"><img src="images/logocorfo.png" width="200" height="80"/></div>
-             <div id="texto-p">
-                 <p>Todos Los Derechos Reservados</p>
-                 <p>Sitio desarrollado por Compañía de Comunicaciones BOOSCO Ldta.</p>
-                 <p>www.boosco.cl</p>
-             </div>
-		</div>
-		<div class="clear"></div>
-	</div>
-</div>
-</div>
-</body>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <!-- start top_bg -->
+    <div class="top_bg">
+      <div class="wrap">
+        <div class="top">
+          <h2>CAtalogo</h2>
+        </div>
+      </div>
+    </div>
+    <!-- start main -->
+    <div class="wrap">
+      <div id="servicio" class="main">
+        <!-- start span_of_3 -->
+        <div class="span_of_3">
+          <div id="cuadro-c" class="span1_of_3">
+            <a href="catalogo/3m.pdf" target="_blank"
+              ><img src="images/portada/3m.jpg"
+            /></a>
+            <div class="span1_of_3_text">
+              <h3><a>Cámaras de Vigilancia CCTV</a></h3>
+              <p></p>
+            </div>
+          </div>
+
+          <div id="cuadro-c" class="span1_of_3">
+            <a href="catalogo/after-mouse-games.pdf" target="_blank"
+              ><img src="images/portada/after1.jpg"
+            /></a>
+            <div class="span1_of_3_text">
+              <h3><a>Cerradura Biométrica Digital</a></h3>
+            </div>
+          </div>
+
+          <div id="cuadro-c" class="span1_of_3">
+            <a href="catalogo/after-mouse-hardware.pdf" target="_blank"
+              ><img src="images/portada/after2.jpg"
+            /></a>
+            <div class="span1_of_3_text">
+              <h3><a>Control de Acceso Facial</a></h3>
+            </div>
+          </div>
+
+          <div class="clear"></div>
+        </div>
+
+        <div class="span_of_3">
+          <div id="cuadro-c" class="span1_of_3">
+            <a href="catalogo/after-mouse-kinect.pdf" target="_blank"
+              ><img src="images/portada/after3.jpg"
+            /></a>
+            <div class="span1_of_3_text">
+              <h3><a>Cámaras Antibandalicas</a></h3>
+            </div>
+          </div>
+
+          <div id="cuadro-c" class="span1_of_3">
+            <a href="catalogo/after-mouse-resto.pdf" target="_blank"
+              ><img src="images/portada/after4.jpg"
+            /></a>
+            <div class="span1_of_3_text">
+              <h3><a>Control de Acceso Dactilar</a></h3>
+            </div>
+          </div>
+
+          <div id="cuadro-c" class="span1_of_3">
+            <a href="catalogo/after-mouse-tecnology.pdf" target="_blank"
+              ><img src="images/portada/after5.jpg"
+            /></a>
+            <div class="span1_of_3_text">
+              <h3><a>Carta de Presentación</a></h3>
+            </div>
+          </div>
+
+          <div class="clear"></div>
+        </div>
+
+        <div class="span_of_3">
+          <div id="cuadro-c" class="span1_of_3">
+            <a href="catalogo/anyguest.pdf" target="_blank"
+              ><img src="images/portada/after6.jpg"
+            /></a>
+            <div class="span1_of_3_text">
+              <h3><a>Alarma Comunitaria</a></h3>
+            </div>
+          </div>
+
+          <div class="clear"></div>
+        </div>
+        <!--  -->
+        <!-- end grids_of_3 -->
+      </div>
+    </div>
+
+    <!-- start footer -->
+    <div class="footer_bg1">
+      <div class="wrap">
+        <div class="footer1">
+          <!-- scroll_top_btn -->
+          <script type="text/javascript">
+            $(document).ready(function () {
+              var defaults = {
+                containerID: "toTop", // fading element id
+                containerHoverID: "toTopHover", // fading element hover id
+                scrollSpeed: 1200,
+                easingType: "linear",
+              };
+
+              $().UItoTop({ easingType: "easeOutQuart" });
+            });
+          </script>
+          <a href="#" id="toTop" style="display: block"
+            ><span id="toTopHover" style="opacity: 1"></span
+          ></a>
+          <!--end scroll_top_btn -->
+
+          <div class="copy">
+            <div id="corfo">
+              <img src="images/logo-boosco.png" width="200" height="65" />
+            </div>
+            <div id="logo2">
+              <img src="images/logocorfo.png" width="200" height="80" />
+            </div>
+            <div id="texto-p">
+              <p>Todos Los Derechos Reservados</p>
+              <p>
+                Sitio desarrollado por Compañía de Comunicaciones BOOSCO Ldta.
+              </p>
+              <p>www.boosco.cl</p>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
