@@ -1,166 +1,214 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head>
-<title>Virtual Cóndor - Diseñamos tus Sueños</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  <head>
+    <title>Virtual Cóndor - Diseñamos tus Sueños</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:400,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 
-<!-- start top_js_button -->
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript" src="js/contacto.js"></script>
+    <!-- start top_js_button -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript" src="js/contacto.js"></script>
 
-   <script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$(".scroll").click(function(event){		
-				event.preventDefault();
-				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
-			});
-		});
-	</script>
-</head>
-<body>
-<!-- start header -->
-<div class="header_bg">
-<div class="wrap">
-	<div class="header">
-		<div class="logo">
-			<a href="index.html"><img src="images/logo.png" width="530" height="120" alt=""/> </a>
-		</div>
-		
-	</div>
-</div>
-</div>
-<!-- start header -->
-<div class="header_btm">
-<div class="wrap">
-	<div class="header_sub">
-		<div class="h_menu">
-			<ul>
-				<li><a href="index.html">Inicio</a></li>
-				<li><a href="quienes.html">Quienes Somos</a></li>
-				<li><a href="servicio.html">Servicios</a></li>
-                <li><a href="par.html">Partners</a></li>
-                <li><a href="catalogo.html">Productos</a></li>
-                <li><a href="video.html">Videos</a></li>                
-				<li class="active"><a href="contacto.html">Contacto</a></li>
-			</ul>
-		</div>
-	
-	   <script type="text/javascript">
-		$(".menu,.search").hide();
-		$("#menu").click(function(){
-			$(".menu").toggle();
-			$(".search").hide();
-			$("#search").removeClass("active");
-			$("#menu").toggleClass("active");
-		});
-		$("#search").click(function(){
-			$(".search").toggle();
-			$(".menu").hide();
-			$("#menu").removeClass("active");
-			$("#search").toggleClass("active");
-			$(".text").focus();
-		});
-	</script>
-	<script type="text/javascript" src="js/script.js"></script>
-	<div class="clear"></div>
+    <script type="text/javascript">
+      jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+          event.preventDefault();
+          $("html,body").animate(
+            { scrollTop: $(this.hash).offset().top },
+            1200
+          );
+        });
+      });
+    </script>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!-- start header -->
+    <div class="header_bg">
+      <div class="wrap">
+        <div class="header">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="images/logo.png" width="530" height="120" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- start header -->
+    <div class="header_btm">
+      <div class="wrap">
+        <div class="header_sub">
+          <div class="h_menu">
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="quienes.html">Quienes Somos</a></li>
+              <li><a href="servicio.html">Servicios</a></li>
+              <li><a href="par.html">Partners</a></li>
+              <li class="active"><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
 
-		<div class="clear"></div>
-</div>
-</div>
-</div>
-<!-- start top_bg -->
-<div class="top_bg">
-<div class="wrap">
-	<div class="top">
-		<h2>Contacto</h2>
- 	</div>
-</div>
-</div>
-<!-- start main -->
-<div class="wrap">
-	<div class="main">
-	 	 <div class="contact">				
-					<div class="contact_info">
-						<h2 class="style">Informacion:</h2>
-                        <p>Federic Chopin #2129</p>
-                        <p>El Milagro La Serena.</p>
-                        <p>Fono: +56972469462</p>
-                        
-                     <div id="mapa">
-                     <img id="lugar" src="images/mapa.png"/>
-                     </div>   
-                      
-      				</div>
-				  <div class="contact-form">
-			 	 <div class="content">
-		 	 	<h2>Comunicate con Nosotros</h2>
-		 	 </div>
-					    <form id="cont" name="cont" method="post" action="mensaje.php" enctype="application/x-www-form-urlencoded">
-					    	<div>
-						    	<span>
-						    	<label>Nombre</label></span>
-						    	<span><input name="nombre" type="text" id="nombre" placeholder="Nombre y Apellidos" class="textbox"></span>
-						    </div>
-						    <div>
-						    	<span><label>E-mail</label></span>
-						    	<span><input name="mail" type="text" id="mail" placeholder="ejemplo@correo.com" class="textbox"></span>
-						    </div>
-						    <div>
-						    	<span><label>Mensaje</label></span>
-						    	<span><textarea name="mensaje" id="mensaje"> </textarea></span>
-						    </div>
-						   <div>
-						   		<span><input type='submit' name="enviar" id="enviar" value="Enviar"></span>
-						  </div>
-					    </form>
-				    </div>
-  				<div class="clear"> </div>		
-			  </div>
-		</div>
+          <script type="text/javascript">
+            $(".menu,.search").hide();
+            $("#menu").click(function () {
+              $(".menu").toggle();
+              $(".search").hide();
+              $("#search").removeClass("active");
+              $("#menu").toggleClass("active");
+            });
+            $("#search").click(function () {
+              $(".search").toggle();
+              $(".menu").hide();
+              $("#menu").removeClass("active");
+              $("#search").toggleClass("active");
+              $(".text").focus();
+            });
+          </script>
+          <script type="text/javascript" src="js/script.js"></script>
+          <div class="clear"></div>
+
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <!-- start top_bg -->
+    <div class="top_bg">
+      <div class="wrap">
+        <div class="top">
+          <h2>Contacto</h2>
+        </div>
+      </div>
+    </div>
+    <!-- start main -->
+<div class="main">
+  <section class="contact">
+    <div class="contact-info">
+      <h2>Información</h2>
+      <address>
+        <p>Colón #352</p>
+        <p>Oficina 318</p>
+        <p>La Serena, IV Región</p>
+        <p>Teléfono: <a href="tel:+56988497249">+56 9 8849 7249</a></p>
+      </address>
+      <div id="mapa" style="margin-top:1rem;">
+        <img id="lugar" src="images/mapa.png" alt="Mapa de la ubicación" style="max-width:100%; height:auto; border-radius:8px;" />
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <div class="content">
+        <h2>Comunícate con Nosotros</h2>
+      </div>
+      <form
+        id="cont"
+        name="cont"
+        method="post"
+        action="mensaje.php"
+        enctype="application/x-www-form-urlencoded"
+      >
+        <div>
+          <span><label for="nombre">Nombre</label></span>
+          <span>
+            <input
+              name="nombre"
+              type="text"
+              id="nombre"
+              placeholder="Nombre y Apellidos"
+              class="textbox"
+              required
+            />
+          </span>
+        </div>
+        <div>
+          <span><label for="mail">E-mail</label></span>
+          <span>
+            <input
+              name="mail"
+              type="email"
+              id="mail"
+              placeholder="ejemplo@correo.com"
+              class="textbox"
+              required
+            />
+          </span>
+        </div>
+        <div>
+          <span><label for="mensaje">Mensaje</label></span>
+          <span>
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              placeholder="Escribe tu mensaje aquí"
+              required
+            ></textarea>
+          </span>
+        </div>
+        <div>
+          <span>
+            <input type="submit" name="enviar" id="enviar" value="Enviar" />
+          </span>
+        </div>
+      </form>
+    </div>
+  </section>
 </div>
 
-<!-- start footer -->
-<div class="footer_bg1">
-<div class="wrap">
-	<div class="footer1">
-		<!-- scroll_top_btn -->
-	    <script type="text/javascript">
-			$(document).ready(function() {
-			
-				var defaults = {
-		  			containerID: 'toTop', // fading element id
-					containerHoverID: 'toTopHover', // fading element hover id
-					scrollSpeed: 1200,
-					easingType: 'linear' 
-		 		};
-				
-				
-				$().UItoTop({ easingType: 'easeOutQuart' });
-				
-			});
-		</script>
-		 <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
-		<!--end scroll_top_btn -->
 
-		<div class="copy">
-			<div id="corfo"><img src="images/logo-boosco.png" width="200" height="65"/></div>
-            <div id="logo2"><img src="images/logocorfo.png" width="200" height="80"/></div>
-             <div id="texto-p">
-                 <p>Todos Los Derechos Reservados</p>
-                 <p>Sitio desarrollado por Compañía de Comunicaciones BOOSCO Ldta.</p>
-                 <p>www.boosco.cl</p>
-             </div>
-		</div>
-		<div class="clear"></div>
-	</div>
-</div>
-</div>
-</body>
+    <!-- start footer -->
+    <div class="footer_bg1">
+      <div class="wrap">
+        <div class="footer1">
+          <!-- scroll_top_btn -->
+          <script type="text/javascript">
+            $(document).ready(function () {
+              var defaults = {
+                containerID: "toTop", 
+                containerHoverID: "toTopHover",
+                scrollSpeed: 1200,
+                easingType: "linear",
+              };
+
+              $().UItoTop({ easingType: "easeOutQuart" });
+            });
+          </script>
+          <a href="#" id="toTop" style="display: block"
+            ><span id="toTopHover" style="opacity: 1"></span
+          ></a>
+          <!--end scroll_top_btn -->
+
+          <div class="copy">
+            <div id="corfo">
+              <img src="images/logo-boosco.png" width="200" height="65" />
+            </div>
+            <div id="logo2">
+              <img src="images/logocorfo.png" width="200" height="80" />
+            </div>
+            <div id="texto-p">
+              <p>Todos Los Derechos Reservados</p>
+              <p>
+                Sitio desarrollado por Compañía de Comunicaciones BOOSCO Ldta.
+              </p>
+              <p>www.boosco.cl</p>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

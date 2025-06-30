@@ -1,224 +1,270 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head>
-<title>Virtual Cóndor - Diseñamos tus Sueños</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-<!-- start top_js_button -->
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-   <script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$(".scroll").click(function(event){		
-				event.preventDefault();
-				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
-			});
-		});
-	</script>
+  <head>
+    <title>Virtual Cóndor - Diseñamos tus Sueños</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:400,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <!-- start top_js_button -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+          event.preventDefault();
+          $("html,body").animate(
+            { scrollTop: $(this.hash).offset().top },
+            1200
+          );
+        });
+      });
+    </script>
 
+    <link rel="stylesheet" href="css/microfiche.css" />
+    <link rel="stylesheet" href="css/microfiche.demo.css" />
+    <link rel="stylesheet" href="source/jquery.fancybox.css" />
+    <script src="js/jquery-1.7.1.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/microfiche.js"></script>
+    <script type="text/javascript" src="source/jquery.fancybox.js"></script>
+    <script>
+      function example(id) {
+        document.write(
+          '<div class="example" id="' +
+            id +
+            '">' +
+            "<div>" +
+            "<ul>" +
+            '<li><a class="fancybox" href="images/galeria/foto1.jpg"><img src="images/galeria/foto1.jpg" width="280" height="160"></a></li>' +
+            '<li><a class="fancybox" href="images/galeria/foto2.jpg"><img src="images/galeria/foto2.jpg" width="280" height="160"></a></li>' +
+            '<li><a class="fancybox" href="images/galeria/foto3.jpg"><img src="images/galeria/foto3.jpg" width="280" height="160"></a></li>' +
+            '<li><a class="fancybox" href="images/galeria/foto4.jpg"><img src="images/galeria/foto4.jpg" width="280" height="160"></a></li>' +
+            '<li><a class="fancybox" href="images/galeria/foto5.jpg"><img src="images/galeria/foto5.jpg" width="280" height="160"></a></li>' +
+            '<li><a class="fancybox" href="images/galeria/foto6.jpg"><img src="images/galeria/foto6.jpg" width="280" height="160"></a></li>' +
+            '<li><a class="fancybox" href="images/galeria/foto7.jpg"><img src="images/galeria/foto7.jpg" width="280" height="160"></a></li>' +
+            '<li><a class="fancybox" href="images/galeria/foto8.jpg"><img src="images/galeria/foto8.jpg" width="280" height="160"></a></li>' +
+            "</ul>" +
+            "</div>" +
+            "</div>"
+        );
+      }
+    </script>
 
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".fancybox").fancybox({
+          openEffect: "none",
+          closeEffect: "none",
+        });
+      });
+    </script>
+    
+  </head>
+  <body>
+    <!-- start header -->
+    <div class="header_bg">
+      <div class="wrap">
+        <div class="header">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="images/logo.png" width="530" height="120" alt="" />
+            </a>
+          </div>
 
-  <link rel="stylesheet" href="css/microfiche.css">
-  <link rel="stylesheet" href="css/microfiche.demo.css">
-  <link rel="stylesheet" href="source/jquery.fancybox.css">
-  <script src="js/jquery-1.7.1.js"></script>
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/microfiche.js"></script>
-<script type="text/javascript" src="source/jquery.fancybox.js"></script>
-  <script>
-    function example(id) {
-      document.write(
-        '<div class="example" id="' + id + '">' +
-          '<div>' +
-            '<ul>' +
-              '<li><a class="fancybox" href="images/galeria/foto1.jpg"><img src="images/galeria/foto1.jpg" width="280" height="160"></a></li>' +
-              '<li><a class="fancybox" href="images/galeria/foto2.jpg"><img src="images/galeria/foto2.jpg" width="280" height="160"></a></li>' +
-              '<li><a class="fancybox" href="images/galeria/foto3.jpg"><img src="images/galeria/foto3.jpg" width="280" height="160"></a></li>' +
-              '<li><a class="fancybox" href="images/galeria/foto4.jpg"><img src="images/galeria/foto4.jpg" width="280" height="160"></a></li>' +
-              '<li><a class="fancybox" href="images/galeria/foto5.jpg"><img src="images/galeria/foto5.jpg" width="280" height="160"></a></li>' +
-              '<li><a class="fancybox" href="images/galeria/foto6.jpg"><img src="images/galeria/foto6.jpg" width="280" height="160"></a></li>' +
-              '<li><a class="fancybox" href="images/galeria/foto7.jpg"><img src="images/galeria/foto7.jpg" width="280" height="160"></a></li>' +
-              '<li><a class="fancybox" href="images/galeria/foto8.jpg"><img src="images/galeria/foto8.jpg" width="280" height="160"></a></li>' +
-            '</ul>' +
-          '</div>' +
-        '</div>'
-      );
-    }
-  </script>
-  
-  <script type="text/javascript">
-	$(document).ready(function() {
-		$(".fancybox").fancybox({
-		openEffect	: 'none',
-		closeEffect	: 'none'
-	});
-	});
-</script>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <!-- start header -->
+    <div class="header_btm">
+      <div class="wrap">
+        <div class="header_sub">
+          <div class="h_menu">
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="quienes.html">Quienes Somos</a></li>
+              <li><a href="servicio.html">Servicios</a></li>
+              <li class="active"><a href="par.html">Partners</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
 
-</head>
-<body>
-<!-- start header -->
-<div class="header_bg">
-<div class="wrap">
-	<div class="header">
-		<div class="logo">
-			<a href="index.html"><img src="images/logo.png" width="530" height="120" alt=""/> </a>
-		</div>
-		
-		<div class="clear"></div>
-	</div>
-</div>
-</div>
-<!-- start header -->
-<div class="header_btm">
-<div class="wrap">
-	<div class="header_sub">
-		<div class="h_menu">
-			<ul>
-				<li><a href="index.html">Inicio</a></li>
-				<li><a href="quienes.html">Quienes Somos</a></li>
-				<li><a href="servicio.html">Servicios</a></li>
-                <li class="active"><a href="par.html">Partners</a></li>
-                <li><a href="catalogo.html">Productos</a></li>
-                <li><a href="video.html">Videos</a></li>
-				<li><a href="contacto.html">Contacto</a></li>
-			</ul>
-		</div>
-		
+          <script type="text/javascript">
+            $(".menu,.search").hide();
+            $("#menu").click(function () {
+              $(".menu").toggle();
+              $(".search").hide();
+              $("#search").removeClass("active");
+              $("#menu").toggleClass("active");
+            });
+            $("#search").click(function () {
+              $(".search").toggle();
+              $(".menu").hide();
+              $("#menu").removeClass("active");
+              $("#search").toggleClass("active");
+              $(".text").focus();
+            });
+          </script>
+          <script type="text/javascript" src="js/script.js"></script>
+          <div class="clear"></div>
 
-	   <script type="text/javascript">
-		$(".menu,.search").hide();
-		$("#menu").click(function(){
-			$(".menu").toggle();
-			$(".search").hide();
-			$("#search").removeClass("active");
-			$("#menu").toggleClass("active");
-		});
-		$("#search").click(function(){
-			$(".search").toggle();
-			$(".menu").hide();
-			$("#menu").removeClass("active");
-			$("#search").toggleClass("active");
-			$(".text").focus();
-		});
-	</script>
-	<script type="text/javascript" src="js/script.js"></script>
-	<div class="clear"></div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <!-- start top_bg -->
+    <div class="top_bg">
+      <div class="wrap">
+        <div class="top">
+          <h2>Partners</h2>
+        </div>
+      </div>
+    </div>
+    <!-- start main -->
+    <div class="wrap">
+      <div class="main">
+        <div class="about">
+          <div class="cont-grid" id="cuadro-p">
+            <div class="abt-para">
+              <span><img id="logo-p" src="images/logo-a.png" /></span>
+              <p class="para">
+                AFTER-MOUSE.COM es un líder probado en el diseño y desarrollo de
+                tecnología multitouch, especializada en aplicaciones hecho a
+                medida así como soluciones pre-empaquetadas. Centrándose en
+                Windows 8, Windows 7 multitouch, el desarrollo basado en gestos
+                con Kinect para Windows, los aplicaciones de AFTER-MOUSE.COM son
+                independientes de hardware, funcionando sobre todos los
+                dispositivos de las paredes hasta las mesas y tablas, y también
+                son una solución viable para casi todas las industrias. Fundada
+                en 2009, AFTER-MOUSE.COM ha desarrollado más de 120 aplicaciones
+                para las marcas de clase mundial.
+              </p>
+            </div>
+            <div class="demo">
+              <script>
+                example("bullets");
+              </script>
+              <script>
+                $("#bullets").microfiche({ bullets: false });
+              </script>
+            </div>
+            <div class="clear"></div>
+          </div>
 
-		<div class="clear"></div>
-</div>
-</div>
-</div>
-<!-- start top_bg -->
-<div class="top_bg">
-<div class="wrap">
-	<div class="top">
-		<h2>Partners</h2>
- 	</div>
-</div>
-</div>
-<!-- start main -->
-<div class="wrap">
-<div class="main">
-		<div class="about">
-	       <div class="cont-grid" id="cuadro-p">
-	       <div class="abt-para">
-	       	<span><img id="logo-p" src="images/logo-a.png" /></span>
-	       	<p class="para">AFTER-MOUSE.COM es un líder probado en el diseño y desarrollo de tecnología multitouch, especializada en aplicaciones hecho a medida así como soluciones pre-empaquetadas. Centrándose en Windows 8, Windows 7 multitouch, el desarrollo basado en gestos con Kinect para Windows, los aplicaciones de AFTER-MOUSE.COM son independientes de hardware, funcionando sobre todos los dispositivos de las paredes hasta las mesas y tablas, y también son una solución viable para casi todas las industrias. Fundada en 2009, AFTER-MOUSE.COM ha desarrollado más de 120 aplicaciones para las marcas de clase mundial.</p>
-	       	</div>
-			 <div class="demo">
-			  <script>example('bullets')</script>
-              <script>$('#bullets').microfiche({ bullets: false })</script>
-            </div>               	                                                           
-	      	 <div class="clear"></div>
-	      	</div>
-            
-            
-	       <div class="cont-grid" id="cuadro-p2">
-	       <div class="abt-para">
-	       	<span><img id="logo-p2" src="images/logo-3.png" /></span>
-	       	<p class="para">3M lleva la tecnología de pantalla interactiva al siguiente nivel mediante la combinación de un rendimiento óptimo multi-táctil, gráficas de alta definición, amplios ángulos de visión y elegante diseño, en un dispositivo multi-táctil fácil de usar, totalmente integrado.</p>
-	       	</div>
+          <div class="cont-grid" id="cuadro-p2">
+            <div class="abt-para">
+              <span><img id="logo-p2" src="images/logo-3.png" /></span>
+              <p class="para">
+                3M lleva la tecnología de pantalla interactiva al siguiente
+                nivel mediante la combinación de un rendimiento óptimo
+                multi-táctil, gráficas de alta definición, amplios ángulos de
+                visión y elegante diseño, en un dispositivo multi-táctil fácil
+                de usar, totalmente integrado.
+              </p>
+            </div>
             <div class="cont-grid-img img_style">
-	     		<a class="fancybox" href="images/galeria/foto9.jpg"><img src="images/galeria/foto9.jpg" width="280" height="160"></a>
-	     	</div>
+              <a class="fancybox" href="images/galeria/foto9.jpg"
+                ><img src="images/galeria/foto9.jpg" width="280" height="160"
+              /></a>
+            </div>
             <div class="cont-grid-img img_style">
-	     		<a class="fancybox" href="images/galeria/foto10.jpg"><img src="images/galeria/foto10.jpg" width="280" height="160"></a>
-	     	</div>     
+              <a class="fancybox" href="images/galeria/foto10.jpg"
+                ><img src="images/galeria/foto10.jpg" width="280" height="160"
+              /></a>
+            </div>
             <div class="cont-grid-img img_style">
-	     		<a class="fancybox" href="images/galeria/foto11.jpg"><img src="images/galeria/foto11.jpg" width="280" height="160"></a>
-	     	</div>                    
-	      	 <div class="clear"></div>
-	      	</div>
-            
-            
-	       <div class="cont-grid" id="cuadro-p3">
-	       <div class="abt-para">
-	       	<span><img id="logo-p3" src="images/anyguest-logo.jpg" /></span>
-	       	<p class="para">Aumente sus ventas, aumente la satisfacción de sus cliente y fidelice a sus usuarios. ANYGUEST es una solución que abarca a toda la industria del servicio y gourmet, una aplicación  que agiliza la atención y reduce el tiempo de espera mediante una aplicación descargable en cualquier Smartphone.</p>
-	       	</div>
-            <div class="cont-grid-img img_style">
-	     		<a class="fancybox" href="images/galeria/foto12.jpg"><img src="images/galeria/foto12.jpg" width="280" height="160"></a>
-	     	</div>  
-            <div class="cont-grid-img img_style">
-	     		<a class="fancybox" href="images/galeria/foto13.jpg"><img src="images/galeria/foto13.jpg" width="280" height="160"></a>
-	     	</div>    
-            <div class="cont-grid-img img_style">
-	     		<a class="fancybox" href="images/galeria/foto14.jpg"><img src="images/galeria/foto14.jpg" width="280" height="160"></a>
-	     	</div>                     
-	      	 <div class="clear"></div>
-	      	</div> 
-            
-            
-	                       
-            
-                        
-            
-	       <div class="clear"></div>	
-		</div>
-		<div class="clear"></div>
-	</div>
-</div>
+              <a class="fancybox" href="images/galeria/foto11.jpg"
+                ><img src="images/galeria/foto11.jpg" width="280" height="160"
+              /></a>
+            </div>
+            <div class="clear"></div>
+          </div>
 
-<!-- start footer -->
-<div class="footer_bg1">
-<div class="wrap">
-	<div class="footer1">
-		<!-- scroll_top_btn -->
-	    <script type="text/javascript">
-			$(document).ready(function() {
-			
-				var defaults = {
-		  			containerID: 'toTop', // fading element id
-					containerHoverID: 'toTopHover', // fading element hover id
-					scrollSpeed: 1200,
-					easingType: 'linear' 
-		 		};
-				
-				
-				$().UItoTop({ easingType: 'easeOutQuart' });
-				
-			});
-		</script>
-		 <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
-		<!--end scroll_top_btn -->
+          <div class="cont-grid" id="cuadro-p3">
+            <div class="abt-para">
+              <span><img id="logo-p3" src="images/anyguest-logo.jpg" /></span>
+              <p class="para">
+                Aumente sus ventas, aumente la satisfacción de sus cliente y
+                fidelice a sus usuarios. ANYGUEST es una solución que abarca a
+                toda la industria del servicio y gourmet, una aplicación  que
+                agiliza la atención y reduce el tiempo de espera mediante una
+                aplicación descargable en cualquier Smartphone.
+              </p>
+            </div>
+            <div class="cont-grid-img img_style">
+              <a class="fancybox" href="images/galeria/foto12.jpg"
+                ><img src="images/galeria/foto12.jpg" width="280" height="160"
+              /></a>
+            </div>
+            <div class="cont-grid-img img_style">
+              <a class="fancybox" href="images/galeria/foto13.jpg"
+                ><img src="images/galeria/foto13.jpg" width="280" height="160"
+              /></a>
+            </div>
+            <div class="cont-grid-img img_style">
+              <a class="fancybox" href="images/galeria/foto14.jpg"
+                ><img src="images/galeria/foto14.jpg" width="280" height="160"
+              /></a>
+            </div>
+            <div class="clear"></div>
+          </div>
 
-		<div class="copy">
-			<div id="corfo"><img src="images/logo-boosco.png" width="200" height="65"/></div>
-            <div id="logo2"><img src="images/logocorfo.png" width="200" height="80"/></div>
-             <div id="texto-p">
-                 <p>Todos Los Derechos Reservados</p>
-                 <p>Sitio desarrollado por Compañía de Comunicaciones BOOSCO Ldta.</p>
-                 <p>www.boosco.cl</p>
-             </div>
-		</div>
-		<div class="clear"></div>
-	</div>
-</div>
-</div>
-</body>
+          <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+
+    <!-- start footer -->
+    <div class="footer_bg1">
+      <div class="wrap">
+        <div class="footer1">
+          <!-- scroll_top_btn -->
+          <script type="text/javascript">
+            $(document).ready(function () {
+              var defaults = {
+                containerID: "toTop", // fading element id
+                containerHoverID: "toTopHover", // fading element hover id
+                scrollSpeed: 1200,
+                easingType: "linear",
+              };
+
+              $().UItoTop({ easingType: "easeOutQuart" });
+            });
+          </script>
+          <a href="#" id="toTop" style="display: block"
+            ><span id="toTopHover" style="opacity: 1"></span
+          ></a>
+          <!--end scroll_top_btn -->
+
+          <div class="copy">
+            <div id="corfo">
+              <img src="images/logo-boosco.png" width="200" height="65" />
+            </div>
+            <div id="logo2">
+              <img src="images/logocorfo.png" width="200" height="80" />
+            </div>
+            <div id="texto-p">
+              <p>Todos Los Derechos Reservados</p>
+              <p>
+                Sitio desarrollado por Compañía de Comunicaciones BOOSCO Ldta.
+              </p>
+              <p>www.boosco.cl</p>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
